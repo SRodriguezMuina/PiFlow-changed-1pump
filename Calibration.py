@@ -29,7 +29,7 @@ time.sleep(T)
 
 # Stop pumps and clean up
 Pump1.stop()
-Pump2.stop()
+#Pump2.stop()
 GPIO.output(19, GPIO.LOW)
 #GPIO.output(16, GPIO.LOW)
 GPIO.cleanup()
